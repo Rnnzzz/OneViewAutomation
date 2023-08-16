@@ -13,7 +13,7 @@ public class WebDriverFactory {
         io.github.bonigarcia.wdm.WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("window-size=1920x800", "--ignore-ssl-errors=yes",
-                "--ignore-certificate-errors", "--disable-dev-shm-usage", "--remote-allow-origins=*", "--headless");
+                "--ignore-certificate-errors", "--disable-dev-shm-usage", "--remote-allow-origins=*", "--disable-logging", "--headless");
         driverConfig = new ChromeDriver(options);
         driverConfig.manage().window().maximize();
         driver.set(driverConfig);

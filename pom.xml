@@ -76,6 +76,18 @@
             <version>${mssql.version}</version> <!-- Use the latest version available -->
         </dependency>
 
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.55</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>5.0.0-BETA6</version>
+        </dependency>
+
     </dependencies>
 
     <build>
