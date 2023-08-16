@@ -15,9 +15,9 @@ public class Hooks {
 
     @Before
     public static void setUp() {
-        {
-            System.setProperty("ov_url", "http://172.31.27.138:8080/OACredit/login");
-        }
+//        {
+//            System.setProperty("ov_url", "http://172.31.27.138:8080/OACredit/login");
+//        }
         WebDriverFactory.setUpDriver();
     }
 
