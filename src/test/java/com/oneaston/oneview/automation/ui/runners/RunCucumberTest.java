@@ -2,8 +2,6 @@ package com.oneaston.oneview.automation.ui.runners;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
-import io.cucumber.testng.TestNGCucumberRunner;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -11,7 +9,7 @@ import org.testng.annotations.Test;
         plugin = {"pretty",
                 "html:target/cucumber-reports/html-results/cucumber_result.html",
                 "json:target/cucumber-reports/json-result/cucumber_result.xml"},
-        features = {"src/test/resources/features"},
+        features = {"src/test/resources/features/security/useraccountmaintenance/UserAccountNavigation.feature"},
         glue = {"com.oneaston.oneview.automation.ui.stepdefinitions",
                 "com.oneaston.oneview.automation.ui.hooks"},
 

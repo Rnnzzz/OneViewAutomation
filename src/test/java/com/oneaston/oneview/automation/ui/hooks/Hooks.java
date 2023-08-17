@@ -2,7 +2,6 @@ package com.oneaston.oneview.automation.ui.hooks;
 
 import com.oneaston.oneview.automation.ui.utils.webdriver.WebDriverFactory;
 import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
